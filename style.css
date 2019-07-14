@@ -1,0 +1,260 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: auto;
+}
+
+header {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('kees-streefkerk-Adl90-aXYwA-unsplash.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.nav-area {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.nav-area li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.nav-area li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.nav-area li a:hover {
+    background: #fff;
+    color: #333;
+    border-radius: 50px;
+
+}
+
+.logo img {
+    width: 80px;
+    float: left;
+    margin-top: 5px;
+    height: 90px;
+
+}
+
+.welcome-text {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+
+.welcome-text h1 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.welcome-text a {
+    border: 1px solid #fff;
+    padding: 16px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px; 
+    display: inline-block;
+    color: #fff;
+}
+
+.welcome-text a:hover {
+    background: #fff;
+    color: #333;
+    margin-top: 25px;
+}
+
+i {
+    font-family: san-serif;
+    font-size: 0.9rem;
+    padding-top: 30px;
+}
+
+.header {
+    margin-top: 5rem;
+    font-family: poppins;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+#image1 {
+    width: 600px;
+    height: 400px;
+}
+.main {
+    width: 500px;
+    margin-left: 65px;
+    margin-top: 60px;
+    padding: 5px;
+    line-height: 35px;
+    text-align: justify;
+    font-family: arial;
+    word-spacing: 3px;
+    
+}
+
+#name {
+    text-align: center;
+    font-family: elephant;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+#button {
+    border: 1px solid black;
+    padding: 16px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 20px;
+    color: black;
+    margin-left: 10rem;
+}
+
+#button:hover {
+    background: rgba(61, 112, 61, 0.521);
+    margin-top: 25px;
+    color: #333;
+}
+
+.content {
+    padding: 50px;
+    display: flex;
+}
+
+
+.content1 {
+    padding: 40px;
+    display: flex;
+}
+
+#image2 {
+    margin-left: 40px;
+    width: 600px;
+    height: 400px;
+}
+
+.all {
+    width: 90rem;
+    margin-top: 0.2rem;
+    padding: 80px;
+    display: inline-flex;
+}
+
+.html, .css, .js{
+    width: 350px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.24);
+    padding-left: 40px;
+    text-align: center;
+    padding: 30px;
+    background: rgba(128, 128, 128, 0.082);
+
+}
+
+.html img, .css img, .js img {
+    height: 120px;
+}
+
+#head {
+    margin: 20px;
+    font-size: 1.5rem;
+    font-family: elephant;
+    font-weight: bold;
+}
+
+#text {
+    line-height: 25px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+#button1 {
+    border: 1px solid black;
+    padding: 16px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 20px;
+    color: black;
+    margin-right: 1rem;
+}
+
+#button1:hover {
+    background: rgba(61, 112, 61, 0.521);
+    margin-top: 25px;
+    color: #333;
+}
+ .contact-us{
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+
+}
+
+#contact {
+    font-family: san-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+} 
+ 
+#social  {
+    float: left;
+    margin-right: 30px;
+    margin-left: 20px;
+
+}
+
+#img{ 
+    height: 70px;
+    width: 70px;
+    border-radius: 30px;
+}
+
+
+#img:hover {
+    width: 100px;
+    margin-top: 30px;
+    transition: width 2s ease-out;
+}
+
+#all{
+     margin-left: 500px; 
+     margin-top: 20px;
+} 
+
+.footer {
+    background: rgba(69, 159, 189, 0.918);
+    height: 20px;
+    margin-top: 60px;
+    padding: 30px;
+    text-align: center;
+    font-family: arial;
+    font-size: 1rem;
+    margin-bottom: 0px;
+}
